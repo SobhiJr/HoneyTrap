@@ -6,7 +6,7 @@ exploit his time, and divert his attention away from the systems.
 It also provides a working environment for studying the techniques and methods
 used by attackers on the system.
 It is important to monitor all activities in this area, and by definition, every activity
-in this area is an attack.![Screenshot 2024-10-01 103728.png](Screenshot%202024-10-01%20103728.png)
+in this area is an attack.![Screenshot 2024-10-01 103728.png](img/Screenshot%202024-10-01%20103728.png)
 # Here are some of the key motivations that led to the development of the honeytrap:
 1. Threat Detection and Analysis
 2. Incident Response and Forensics
