@@ -18,11 +18,14 @@ in this area is an attack.![Screenshot 2024-10-01 103728.png](img/Screenshot%202
 
 # DATA
 ## Phases of manipulating the data:
-1. searching for the data sources![Picture1.png](img/Picture1.png)
+1. searching for the data sources
+![Picture1.png](img/Picture1.png)
 2. data access and authorization
-3. data extraction![Picture2.png](img/Picture2.png)
+3. data extraction
+![Picture2.png](img/Picture2.png)
 4. data exploration
 5. data selection
 6. data preprocessing: [ETL , Data cleaning and Web scraping]
-![Picture3.png](img/Picture3.png)7. data syncronization
+![Picture3.png](img/Picture3.png)
+7. data syncronization
 8. data visualization
