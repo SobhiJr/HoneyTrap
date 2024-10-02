@@ -14,7 +14,7 @@ in this area is an attack.![Screenshot 2024-10-01 103728.png](img/Screenshot%202
 4. Vulnerability Identification
 5. Training and Skill Development
 
-![HoneyTrap Network.gif](img/HoneyTrap%20Network.gif)
+
 
 # DATA
 ## Phases of manipulating the data:
