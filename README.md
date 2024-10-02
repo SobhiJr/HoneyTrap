@@ -47,9 +47,44 @@ Key Features:
 4.  Data Loading:
   Local Database Integration: Loads the transformed data into a local SQLite database.
 5.  Error Handling: Implements robust error handling to manage issues during data extraction, transformation, and loading processes.
-6. Synchronization and early detection 
+6. Synchronization and early detection .
+   
 Dependencies:
 Python 3.x
 SQLite
 IP2Location API
 Other dependencies listed in requirements.txt
+
+## Honeydash.py Dashboard
+
+This project is a comprehensive web-based dashboard designed for monitoring and visualizing data from a honeypot system. It leverages **Dash** and **Plotly** for creating interactive visualizations and **SQLite** for data storage.
+![Screenshot 2024-10-01 103728.png](img/Screenshot%202024-10-01%20103728.png)
+
+### Key Features
+
+1. **Real-time Data Visualization**:
+   - **Dynamic Updates**: Continuously updates the dashboard with real-time data from the honeypot system.
+   - **Log Display**: Shows detailed logs of events captured by the honeypot, including timestamps, IP addresses, and event types.
+
+2. **Risk Assessment**:
+   - **Risk Gauges**: Displays risk levels using interactive gauges and indicators.
+   - **Alert System**: Highlights critical events and potential threats in real-time.
+
+3. **Interactive Charts**:
+   - **Bar Charts**: Visualizes the frequency of different types of events.
+   - **Line Charts**: Tracks trends over time, such as the number of attacks per day.
+   - **Geographical Maps**: Plots the origin of attacks on a world map for geographical analysis.
+
+4. **Ping Indicators**:
+   - **Network Status Monitoring**: Monitors the status of various network components and displays their current state.
+   - **Health Indicators**: Provides visual indicators for the health and performance of the honeypot system.
+
+
+### Dependencies
+
+- **Python 3.x**
+- **Dash**
+- **Plotly**
+- **SQLite**
+- **Other dependencies listed in `requirements.txt`
+
