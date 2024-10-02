@@ -29,3 +29,27 @@ in this area is an attack.![Screenshot 2024-10-01 103728.png](img/Screenshot%202
 ![Picture3.png](img/Picture3.png)
 7. data syncronization
 8. data visualization
+# Code
+## data_syncronyzer.py:
+### Data Synchronizer Script
+This Python script is designed to synchronize data between various sources and a local SQLite database. It includes several key functionalities to ensure efficient and accurate data management:
+
+Key Features:
+1. IP location using Web scraping:
+  Geolocation Retrieval: Utilizes the IP2Location API to fetch geographical coordinates (latitude and longitude) for given IP addresses.
+  Data Storage: Stores the retrieved geolocation data in the local SQLite database for future reference and analysis.
+  Data Extraction:
+2. Source Database Connection: Connects to an external database to extract relevant data.
+  Incremental Data Extraction: Ensures only new or updated data is extracted by comparing timestamps or unique identifiers.
+3.  Data Transformation:
+  Normalization: Normalizes IP addresses and other data fields to ensure consistency.
+  Preprocessing: Preprocesses the extracted data to remove duplicates, handle missing values, and format data appropriately.
+4.  Data Loading:
+  Local Database Integration: Loads the transformed data into a local SQLite database.
+5.  Error Handling: Implements robust error handling to manage issues during data extraction, transformation, and loading processes.
+6. Synchronization and early detection 
+Dependencies:
+Python 3.x
+SQLite
+IP2Location API
+Other dependencies listed in requirements.txt
