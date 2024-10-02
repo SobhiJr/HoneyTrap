@@ -21,7 +21,7 @@ in this area is an attack.![Screenshot 2024-10-01 103728.png](img/Screenshot%202
 1. searching for the data sources
 ![Picture1.png](img/Picture1.png)
 2. data access and authorization
-3. data extraction
+3. data extraction.  
 ![Picture2.png](img/Picture2.png)
 4. data exploration
 5. data selection
